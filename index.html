@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c0f04384b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <header class="container-fluid title">
+    <header>
         <h1>Weather Dashboard</h1>
     </header>
-    <div class="col-md-4 col-md-8">
-    </div>
+    <div class="container-fluid"></div>
+    <div class="col-md-4 col-md-8"></div>
+    <form> 
+        <input type="text" placeholder="Enter city name" class="inputCity"/>
+        <button type="submit" class="button" id="getWeather">Get the weather <i class="fas fa-search"></button>
+    </form>
     <div class="card" style="width: 300px;">
+        <h2>5-Day Forecast</h2>
         <div class="card-body text-center">
-            <h3 class="card-date">Alice Liddel</h3>
+            <h3 class="card-date">#placeholder</h3>
             <img src="images/sample.svg" class="card-img-top" alt="...">
-            <li class="card-temp">#placeholder</li>
-            <li class="card-wind">#placeholder</li>
-            <li class="card-humid">#placeholder</li>
+            <li class="card-temp">#placeholder</li><i class='fas fa-temperature-low'></i>
+            <li class="card-wind">#placeholder</li><i class='fas fa-wind'></i>
+            <li class="card-humid">#placeholder</li><i class='fas fa-water'></i>
         </div>
     </div>
 
