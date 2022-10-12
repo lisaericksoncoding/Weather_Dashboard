@@ -1,11 +1,7 @@
-# Weather_Dashboard
-
 <h1 align="center"> Weather Dasboard Challenge</h1>
 
-<p align="center">Create a simple calendar application that allows a user to save events for each hour of the day.</p>
-
 ## Screenshots 
-<img src="./assets/Weather Dashboard.PNG"></img>
+<img src="./assets/Weather Dashboard.png"></img>
 <img src="./assets/Weather Data.PNG"></img>
 
 ## Links
