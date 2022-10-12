@@ -16,7 +16,8 @@ header {
 
 }
 .container {
-    width: auto;
+    display: flex;
+    flex-direction: column;
 }
 h2 {
     text-align: center;
@@ -34,8 +35,13 @@ h2 {
     width: 25vh;
 }
 
+#inputCity {
+    padding: 15px 32px;
+
+}
+
 .card {
-    display: inline-block;
+    flex-direction: row;
     width: 75vh;
 }
 
